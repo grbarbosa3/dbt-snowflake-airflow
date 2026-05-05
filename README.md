@@ -54,12 +54,6 @@ O projeto requer os seguintes elementos:
 
 * Um usuário Snowflake com permissões necessárias, incluindo a capacidade de criar objetos no banco de dados DEMO_DB.
 
-### Como instalar o Docker?
-https://www.youtube.com/watch?v=pRFzDVn40rw&list=PLbPvnlmz6e_L_3Zw_fGtMcMY0eAOZnN-H
-
-### Como criar um conta no Snowflake?
-https://www.snowflake.com/en/emea/
-
 ### Como criar o user com permissões?
 Entre na pasta ```scripts``` e use o arquivo ```snowflake-setup.sql``` como base.
 
@@ -77,9 +71,7 @@ Rode o container do Airflow com o comando:
 cd airflow
 docker compose up -d
 ```
-Resultado esperado:
 
-![image](assets/ariflow-ok.png)
 
 
 ## Como acessar o Airflow?
@@ -130,11 +122,6 @@ pip install -r requirements.txt
 dbt --version
 ```
 
-Resultado esperado:
-
-![image](assets/dbt-ok.png)
-
-
 ## Como configurar o dbt para conectar no Snowflake?
 Entre na pasta ```src/dbt``` e altere o nome do arquivo ```example_profiles.yml``` para ```profiles.yml```
 
@@ -146,20 +133,12 @@ cd src/dbt
 dbt debug
 ```
 
-Resultado esperado:
-
-![image](assets/connection-dbt-snow-ok.png)
-
 ## Como ingerir dados no dbt?
 Use o comando abaixo:
 ```
 cd src/dbt
 dbt seed
 ```
-
-Resultado esperado:
-
-![image](assets/dbt-seed.png)
 
 ## Como criar a imagem Docker do dbt?
 ```
@@ -182,9 +161,6 @@ Tabelas ingeridas a partir dos arquivos CSV
 
 ![image](assets/tables.png)
 
-As tabelas processadas pelo dbt, foram materializadas como views, conforme exemplo:
-
-![image](assets/transformed_table_snowflake.png)
 
 
 
