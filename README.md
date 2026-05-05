@@ -1,5 +1,10 @@
 # Engenharia de Dados com Apache Airflow, Snowflake e dbt
-Repositório do projeto "Engenharia de Dados com Apache Airflow, Snowflake e dbt". Este projeto é baseado no seguinte Guia Snowflake para engenharia de dados com Apache Airflow, Snowflake e dbt.
+Repositório do projeto "Engenharia de Dados com Apache Airflow, Snowflake e dbt". Este projeto é baseado no Guia Snowflake para engenharia de dados com Apache Airflow, Snowflake e dbt.
+
+- [Exploring dbt with Snowflake](https://www.entechlog.com/blog/kafka/exploring-dbt-with-snowflake/)
+
+- [Snowflake Guide: Data Engineering with Apache Airflow](https://quickstarts.snowflake.com/guide/data_engineering_with_apache_airflow/index.html)
+
 
 ## Passo a passo contido neste repo:
 Passo 1: Criar a conta no Snowflake 
@@ -165,7 +170,4 @@ Tabelas ingeridas a partir dos arquivos CSV
 
 
 
-- [Exploring dbt with Snowflake](https://www.entechlog.com/blog/kafka/exploring-dbt-with-snowflake/)
-
-- [Snowflake Guide: Data Engineering with Apache Airflow](https://quickstarts.snowflake.com/guide/data_engineering_with_apache_airflow/index.html)
 
